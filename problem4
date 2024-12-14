@@ -1,0 +1,11 @@
+def count_multiples(numbers):
+    i=0
+    numbers = [1, 2, 8, 9, 12, 46, 76, 82, 15, 20, 30]
+    count = for i in range(1, 10)
+    for num in numbers:
+        for divisor in range(1, 10):
+            if num % divisor == 0:
+                count[divisor] += 1
+    return count_dict
+result = count_multiples(numbers)
+print(result)
